@@ -1,0 +1,32 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+  }
+
+  .custom-menu{
+    display: none;
+    width: 200px;
+    box-shadow: 0 5px 15px #1111118c;
+    position: fixed;
+  }
+
+  .custom-menu button{
+    width: 100%;
+    text-align: left;
+    background: #111;
+    color: #e7e7e7e7;
+    font-size: 14px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .custom-menu button:hover{
+    background-color: #1d73cf;
+  }
